@@ -8,14 +8,14 @@ Pod::Spec.new do |spec|
   Repository with GMA SDK version 8.7.0, this version is a only a test version :D
                    DESC
 
-  spec.homepage     = "https://github.com/DAZN-FootballCo"
+  spec.homepage     = "https://github.com/MateuszW13/GAMFork.git"
   spec.license      = { :type => "MIT", :file => "License" }
-  spec.author       = { "Mateusz Wagner" => "mateusz.wagner@footballco.com" }
+  spec.author       = { "Mateusz Wagner" => "mwagnerdev@gmail.com" }
 
   spec.ios.deployment_target = "14.5"
   spec.swift_version = "5.0"
 
-  spec.source       = { :git => "https://github.com/DAZN-FootballCo/google-mobile-ads-sdk-fork.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/MateuszW13/GAMFork.git", :tag => "#{spec.version}" }
   spec.source_files  = "Classes", "Classes/**/*.{h,m,swift}", "GMAFork/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
