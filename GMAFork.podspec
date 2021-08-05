@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "GMAFork"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "We have a library that inject google mobile ads sdk with version 8.7.0 "
 
   spec.description  = <<-DESC
