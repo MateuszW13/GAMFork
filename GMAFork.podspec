@@ -19,6 +19,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "Classes", "Classes/**/*.{h,m,swift}", "GMAFork/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
+spec.ios.dependency 'Google-Mobile-Ads-SDK', ' 8.7.0'
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
