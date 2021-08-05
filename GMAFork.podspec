@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "License" }
   spec.author       = { "Mateusz Wagner" => "mwagnerdev@gmail.com" }
 
-  spec.ios.deployment_target = "14.5"
+  spec.ios.deployment_target = "11.0"
   spec.swift_version = "5.0"
 
   spec.source       = { :git => "https://github.com/MateuszW13/GAMFork.git", :tag => "#{spec.version}" }
